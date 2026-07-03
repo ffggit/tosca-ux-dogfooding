@@ -8,7 +8,7 @@ _Includes all 126 issues. Designer = "Merged" where cross-designer duplicates we
 | F-03 | Merged | Data Integrity | Major | Help & guidance | No indication that SQLite file path must be on the agent machine, not the local Mac | One team |
 | F-04 | Merged | Data Integrity | Major | Feedback | "Use caching database" checkbox gives no feedback on existence or failure | Multi-team |
 | F-05 | Merged | Data Integrity | Major | Help & guidance | Entire DI setup flow assumes Windows; Mac users hit multiple silent blockers with no in-product guidance | One team |
-| F-06 | Merged | Data Integrity | Major | Feedback | Test Connection runs server-side but gives no indication; timeout misread as connection failure | Multi-team |
+| F-06 | Merged | Data Integrity | Major | Feedback | Test Connection failure gives no diagnostic info — error does not indicate whether the cause is a wrong connection string, inaccessible file path, or network issue; users cannot self-diagnose (note: test runs on personal agent machine, not cloud server) | Multi-team |
 | F-07 | Franc González | Data Integrity | Minor | Efficiency | Search returns no results when querying by Last modified by | One team |
 | F-08 | Merged | Launcher | Major | Feedback | TBox quarantined by antivirus; UI shows only "Component executable not found" | Multi-team |
 | F-09 | Merged | Launcher | Major | Feedback | Extension helper exe blocked; error names the file but provides no actionable steps | Multi-team |
@@ -129,3 +129,4 @@ _Includes all 126 issues. Designer = "Merged" where cross-designer duplicates we
 | AM-20 | Ana-Maria Neaga | Builder - Test cases | Minor | Feedback | Properties tab lacks proper zero state on no selection | One team |
 | AM-21 | Merged | Builder - Test cases | Minor | Efficiency, Control & freedom | No way to go back to list of test cases | Multi-team |
 | AM-22 | Merged | Runs page | Major | Feedback, Efficiency, Error prevention | Confusing error messages don't help debugging; e.g. "couldn't find tab" when issue was with buttons | Multi-team |
+| F-18 | Franc González | Data Integrity / Builder | Major | Help & guidance | CSV Filename field expects path without file extension (e.g. `dev_employees_sample` not `dev_employees_sample.csv`); no indication in UI — users receive "Could not find file" error with no explanation of the cause | One team |
