@@ -18,7 +18,7 @@ _Includes all 126 issues. Designer = "Merged" where cross-designer duplicates we
 | F-13 | Franc González | Builder — SQL Editor | Major | Help & guidance, Efficiency | SQL Editor shows "Unknown Connection"; Run SQL button disabled with no tooltip | One team |
 | F-14 | Franc González | Launcher | Major | Help & guidance | No in-product guidance that corporate security policies may block execution | Multi-team |
 | F-15 | Franc González | Agents / Run tests | Minor | Help & guidance | Agents page shows cloud agent with no type indication | One team |
-| F-16 | Franc González | Playlists / Run tests | Minor | Efficiency | Playlist test run dropdown — issue with run configuration | One team |
+| F-16 | Franc González | Playlists / Run tests | Minor | Efficiency | Playlist "Test run" dropdown only shows "Run on personal agent" and "Schedule run" — no option to select a specific agent including the cloud agent visible on the Agents page; users expecting to choose which agent executes the playlist have no path to do so from this screen | One team |
 | F-17 | Franc González | Data Integrity / Launcher | Major | Help & guidance | ToscaDataIntegrityExecutor folder not created automatically on first run | One team |
 | A-01 | Angelika Zych | Settings/Workspaces | Minor | Language & clarity | "All users have access" label gives no info about what access level | Multi-team |
 | A-02 | Merged | Inventory/Test cases | Major | Help & guidance | Launcher install prompted with no prior warning, no system requirements, no explanation | Multi-team |
@@ -65,18 +65,18 @@ _Includes all 126 issues. Designer = "Merged" where cross-designer duplicates we
 | G-09 | Merged | Playlist | Major | Feedback | After clicking Run, no feedback given; no loading indicator | Multi-team |
 | G-10 | Merged | Playlist | Minor | Feedback | No visual cue after action | Multi-team |
 | G-11 | Merged | Playlist | Major | Efficiency | Viewing why test failed requires 3 clicks minimum | Multi-team |
-| G-12 | Giovanni Tocco | Playlist / Agent | Major | Consistency | Playlist/Agent consistency issue | Multi-team |
-| G-13 | Giovanni Tocco | Launcher | Minor | Help & guidance | Launcher guidance missing | Multi-team |
-| G-14 | Merged | Workspace management | Minor | Consistency | Workspace management consistency issue | Multi-team |
-| G-15 | Merged | Workspace management | Major | Consistency | Workspace management major consistency issue | Multi-team |
-| G-16 | Merged | Workspace management | Minor | Consistency | Workspace management minor consistency issue | Multi-team |
-| G-17 | Giovanni Tocco | Builder | Minor | Efficiency | Builder efficiency issue | One team |
-| G-18 | Giovanni Tocco | Builder | Minor | Efficiency | Builder efficiency issue | One team |
+| G-12 | Giovanni Tocco | Playlist / Agent | Major | Consistency | BrowserArguments set at test case level (e.g. browser=chrome) are ignored when running via playlist with Cloud agent — same test case uses different browsers depending on trigger method with no indication in the UI | Multi-team |
+| G-13 | Giovanni Tocco | Launcher | Minor | Help & guidance | Launcher cannot be opened manually — no shortcut, no entry point, no documentation visible in UI; it only starts automatically when triggered by a test run | Multi-team |
+| G-14 | Merged | Workspace management | Minor | Consistency | After creating a workspace, "Go to workspace" is a tertiary action on a recap/edit page — not visually prominent; users expect to land directly inside the new workspace | Multi-team |
+| G-15 | Merged | Workspace management | Major | Consistency | Private workspace access denied even with admin rights after creation — user must change workspace to public to access it; no warning or explanation shown | Multi-team |
+| G-16 | Merged | Workspace management | Minor | Consistency | Sample test cases are hard to find; On Prem users find familiar structure but terminology differs (e.g. "playlists" vs On Prem equivalent) with no onboarding guidance to bridge the gap | Multi-team |
+| G-17 | Giovanni Tocco | Builder | Minor | Efficiency | "Create folder" button in Builder toolbar is visually lost among disabled buttons — active grey not distinct enough from disabled state; users are drawn to "Create test case" instead | One team |
+| G-18 | Giovanni Tocco | Builder | Minor | Efficiency | After creating a test case, the name editor field is visually detached from the main blue CTA area where user attention is directed — easy to miss and overlook | One team |
 | G-19 | Merged | Builder / Modules | Major | Help & guidance | No option to name module before scan | One team |
 | G-20 | Merged | Builder | Major | Efficiency | No autosave; disruptive save dialog appears when navigating away | Multi-team |
 | G-21 | Giovanni Tocco | Scanner / XScan | Major | Efficiency | No "rescan module" action; requires 8+ step workaround | One team |
 | G-22 | Merged | Test execution | Major | Feedback | Only signal of completed run is execution bar losing orange color; no result summary | Multi-team |
-| G-23 | Giovanni Tocco | Test execution | Minor | Efficiency | Execution efficiency issue | One team |
+| G-23 | Giovanni Tocco | Test execution | Minor | Efficiency | On a VM with a smaller viewport, runs view is difficult to read — columns must be rearranged manually; no auto-collapse or adaptive layout to help users prioritize relevant information | One team |
 | D-01 | Diogo Lopes | Inventory > Module editor (Xscan) | Major | Efficiency | Hard to add data-test id attributes | One team |
 | D-02 | Merged | Inventory > Module editor (Xscan) | Major | Efficiency | Pervasive slowness during scan | One team |
 | D-03 | Merged | Admin > Workspaces | Major | Efficiency | Creator not auto-added to own workspace; time lost, manual self-add required | Multi-team |
